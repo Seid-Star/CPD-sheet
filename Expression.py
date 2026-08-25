@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=a*b*c
+g=a+b+c
+arr=[a,b,c]
+e=(arr[0]+arr[1])*arr[2]
+h=(arr[1]+arr[2])*arr[0]
+print(max(d,e,g,h))
